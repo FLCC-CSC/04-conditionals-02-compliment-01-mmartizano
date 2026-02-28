@@ -21,7 +21,8 @@ def main():
 def compliment():
     answer = input('Would you like a compliment? ')
     if answer == 'yes':
-        print('You have wonderful eyes. \nThank you for playing.')
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
     else:
         print('Thank you for playing.')
 
@@ -79,12 +80,13 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-2
+
 
 
 
 2. What was the hardest part of this lab?
-typing it out
+
+
 
 
 
