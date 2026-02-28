@@ -1,8 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Martizano
+# DATE: 2/28/2026
+# BRIEF DESCRIPTION: user needs to input 'yes' to receive a compliment,
+# otherwise the program will spit out 'thank you for playing'  
 
 
 
@@ -14,7 +15,20 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    compliment()
 
+def compliment():
+    answer = input('Would you like a compliment? ')
+    if answer == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+    else:
+        print('Thank you for playing.')
+
+
+
+main()    
 
 
 
